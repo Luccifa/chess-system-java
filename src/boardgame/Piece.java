@@ -3,12 +3,12 @@ package boardgame;
 public class Piece {
 
 	// protected => somente classes do mesmo pacote podem acessar
-	protected Position positition;
+	protected Position position;
 	private Board board;
 
 	public Piece(Board board) {
 		this.board = board;
-		this.positition = null;
+		this.position = null;
 	}
 
 	protected Board getBoard() {
